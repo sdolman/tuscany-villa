@@ -1,8 +1,45 @@
+body {
+	font-family: sans-serif;
+}
+
 .navbar-brand {
 	font-size: small;
 }
 
 .thumbnail {
-	border: 2px dotted black;
+	border: 1px solid grey;
 	height: 200px;
+	color: white;
+	text-align: center;
+	background-color: darkblue;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.row>div {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.overpic {
+	height: 100%;
+}
+div.overpic:before {
+    content:'';
+    height:100%;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.first-box {
+	height: 400px;
+}
+
+.second-box {
+	height: 400px;
+}
+
+#wc1 {
+ background-image: url();
 }
