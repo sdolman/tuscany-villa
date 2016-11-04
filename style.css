@@ -1,0 +1,8 @@
+.navbar-brand {
+	font-size: small;
+}
+
+.thumbnail {
+	border: 2px dotted black;
+	height: 200px;
+}
