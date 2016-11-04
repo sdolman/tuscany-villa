@@ -1,9 +1,30 @@
 body {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 }
 
-.navbar-brand {
+.page-header {
+	text-align: center;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar>.container-fluid {
+	padding-right: 0px;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
 	font-size: small;
+	background-image: none;
+	background-color: #00CED1;
+	color: white;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-image: none;
+	background-color: #1E90FF;
+	color: white;
 }
 
 .thumbnail {
@@ -14,6 +35,7 @@ body {
 	background-color: darkblue;
 	margin: 0px;
 	padding: 0px;
+	background-size: cover;
 }
 
 div.row>div {
