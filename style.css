@@ -5,6 +5,7 @@ body {
 
 .page-header {
 	text-align: center;
+	margin-bottom: 0px;
 }
 
 .navbar {
@@ -13,6 +14,10 @@ body {
 
 .navbar>.container-fluid {
 	padding-right: 0px;
+}
+
+.navbar-default a, .navbar-default a:focus, navbar-default a:hover {
+	font-size: small;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
