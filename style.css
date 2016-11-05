@@ -48,7 +48,7 @@ div.row>div {
 	padding: 0px;
 }
 
-
+/*Here's a hacky way to vertically center a div in its parent. */
 .overpic {
 	height: 100%;
 }
