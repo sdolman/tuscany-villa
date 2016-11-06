@@ -81,8 +81,28 @@ div.overpic:before {
 }
 
 .infoblock {
-    color:black;
     text-shadow: none;
+}
+
+.infoblock h2 {
+    color: #00CED1;
+    font-style: italic;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 90px;
+    text-align: left;
+
+}
+
+.infoblock p {
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    padding-left: 63px;
+    padding-right: 60px;
+    text-align: center;
+    font-size: medium;
 }
 
 
