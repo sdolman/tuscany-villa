@@ -6,7 +6,7 @@ body {
 .page-header {
 	text-align: center;
 	margin-bottom: 0px;
-    background-color: beige;
+    background-color: #FFFAF0;
     margin-top: 0px;
 }
 
@@ -40,20 +40,21 @@ h1 {
 }
 
 .thumbnail, .thumbnail:focus, .thumbnail:hover {
-    height: 330px;
+    height: 350px;
     background-color: transparent;
     margin: 0px;
     padding: 0px;
     color: white;
     text-decoration: none;
     text-shadow: 2px 2px 10px #2F4F4F;
+    border: none;
 }
 
 
 
 .box {
 /*	border: 1px solid grey;*/
-	height: 330px;
+	height: 350px;
 	text-align: center;
 	background-color: ;
 	margin: 0px;
@@ -99,25 +100,28 @@ div.overpic:before {
 }
 
 #wc4 {
-    background-image: url(VillaPics/Villa-Rucellai-Toscani-2750-2-348x348.jpg);
+    background-image: url(VillaPics/1.jpg);
 }
 
 #wc5 {
-    background-image: url(VillaPics/Villa-Rucellai-Toscani-2812-2-348x348.jpg);
+    background-image: url(VillaPics/2.jpg);
 }
 
 #wc6 {
-    background-image: url(VillaPics/42-348x348.jpg)
+    background-image: url(VillaPics/3.jpg);
 }
 
 #wc7 {
-    background-image: url(VillaPics/3b-348x348.jpg)
+    background-image: url(VillaPics/4.jpg);
 }
 
 #wc9 {
-    background-image: url(VillaPics/42-348x348.jpg)
+    background-image: url(VillaPics/5.jpg);
 }
 
 #wc10 {
-    background-image: url(VillaPics/box_partners.png)
+    background-image: url(VillaPics/box_partners.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
