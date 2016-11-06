@@ -145,3 +145,15 @@ div.overpic:before {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+footer {
+    height: 80px;
+    color: dimgrey;
+    background-color: #FFFAF0;
+    text-align: right;
+    padding-top: 15px;
+}
+
+footer img {
+    height: 60px;
+}
