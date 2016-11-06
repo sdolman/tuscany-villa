@@ -2,7 +2,7 @@
 
 ## Overview
 
-Exercise for making a repsonsive webpage at different display widths.
+Exercise for making a responsive webpage at different display widths.
 
 ### Features
 
